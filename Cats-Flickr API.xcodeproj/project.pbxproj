@@ -13,6 +13,8 @@
 		FFEC8F601F1D520400E961DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFEC8F5E1F1D520400E961DA /* Main.storyboard */; };
 		FFEC8F621F1D520400E961DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFEC8F611F1D520400E961DA /* Assets.xcassets */; };
 		FFEC8F651F1D520400E961DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFEC8F631F1D520400E961DA /* LaunchScreen.storyboard */; };
+		FFEC8F711F1D63C100E961DA /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = FFEC8F701F1D63C100E961DA /* Photo.m */; };
+		FFEC8F741F1D6C8800E961DA /* PhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FFEC8F731F1D6C8800E961DA /* PhotoCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		FFEC8F611F1D520400E961DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FFEC8F641F1D520400E961DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FFEC8F661F1D520400E961DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFEC8F6F1F1D63C100E961DA /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
+		FFEC8F701F1D63C100E961DA /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
+		FFEC8F721F1D6C8800E961DA /* PhotoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoCollectionViewCell.h; sourceTree = "<group>"; };
+		FFEC8F731F1D6C8800E961DA /* PhotoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +64,14 @@
 		FFEC8F541F1D520400E961DA /* Cats-Flickr API */ = {
 			isa = PBXGroup;
 			children = (
-				FFEC8F581F1D520400E961DA /* AppDelegate.h */,
-				FFEC8F591F1D520400E961DA /* AppDelegate.m */,
 				FFEC8F5B1F1D520400E961DA /* ViewController.h */,
 				FFEC8F5C1F1D520400E961DA /* ViewController.m */,
+				FFEC8F6F1F1D63C100E961DA /* Photo.h */,
+				FFEC8F701F1D63C100E961DA /* Photo.m */,
 				FFEC8F5E1F1D520400E961DA /* Main.storyboard */,
+				FFEC8F721F1D6C8800E961DA /* PhotoCollectionViewCell.h */,
+				FFEC8F731F1D6C8800E961DA /* PhotoCollectionViewCell.m */,
 				FFEC8F611F1D520400E961DA /* Assets.xcassets */,
-				FFEC8F631F1D520400E961DA /* LaunchScreen.storyboard */,
-				FFEC8F661F1D520400E961DA /* Info.plist */,
 				FFEC8F551F1D520400E961DA /* Supporting Files */,
 			);
 			path = "Cats-Flickr API";
@@ -74,6 +80,10 @@
 		FFEC8F551F1D520400E961DA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FFEC8F631F1D520400E961DA /* LaunchScreen.storyboard */,
+				FFEC8F661F1D520400E961DA /* Info.plist */,
+				FFEC8F581F1D520400E961DA /* AppDelegate.h */,
+				FFEC8F591F1D520400E961DA /* AppDelegate.m */,
 				FFEC8F561F1D520400E961DA /* main.m */,
 			);
 			name = "Supporting Files";
@@ -153,6 +163,8 @@
 			files = (
 				FFEC8F5D1F1D520400E961DA /* ViewController.m in Sources */,
 				FFEC8F5A1F1D520400E961DA /* AppDelegate.m in Sources */,
+				FFEC8F711F1D63C100E961DA /* Photo.m in Sources */,
+				FFEC8F741F1D6C8800E961DA /* PhotoCollectionViewCell.m in Sources */,
 				FFEC8F571F1D520400E961DA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
